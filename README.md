@@ -31,29 +31,9 @@ cd gemini-youtube-automation
 Make sure you have Python installed, then run:
 pip install -r requirements.txt
 
-
-3. **Configure YouTube API:**
-Follow the [YouTube API documentation](https://developers.google.com/youtube/v3) to set up your API credentials and update the necessary configurations in `uploader.py`.
-
 ## Usage
 
 To run the application, execute the following command:
 python main.py
 
-
 This will initiate the content generation and upload process.
-
-## Contributing
-
-Contributions are welcome! Please open an issue or submit a pull request for any improvements or features.
-
-## 📊 Daily Production Infographic
-
-Here's a visual summary of the bot's daily performance and workflow:
-
-![Gemini YouTube Automation Daily Report Infographic](images/infographic.png)
-
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
