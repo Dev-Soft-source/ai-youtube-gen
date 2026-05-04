@@ -25,30 +25,30 @@ if os.name == 'posix':
     change_settings({"IMAGEMAGICK_BINARY": "/usr/bin/convert"})
 
 
-def get_pexels_image(query, video_type):
-    """Searches for a relevant image on Pexels and returns the image object."""
-    pexels_api_key = os.getenv("PEXELS_API_KEY")
-    if not pexels_api_key:
-        print("⚠️ PEXELS_API_KEY not found. Using solid color background.")
-        return None
+# def get_pexels_image(query, video_type):
+#     """Searches for a relevant image on Pexels and returns the image object."""
+#     pexels_api_key = os.getenv("PEXELS_API_KEY")
+#     if not pexels_api_key:
+#         print("⚠️ PEXELS_API_KEY not found. Using solid color background.")
+#         return None
 
-    orientation = 'landscape' if video_type == 'long' else 'portrait'
-    try:
-        headers = {"Authorization": pexels_api_key}
-        params = {"query": f"abstract {query}", "per_page": 1, "orientation": orientation}
-        response = requests.get("https://api.pexels.com/v1/search", headers=headers, params=params, timeout=15)
-        response.raise_for_status()
-        data = response.json()
-        if data.get('photos'):
-            image_url = data['photos'][0]['src']['large2x']
-            image_response = requests.get(image_url, timeout=15)
-            image_response.raise_for_status()
-            return Image.open(BytesIO(image_response.content)).convert("RGBA")
-    except requests.exceptions.RequestException as e:
-        print(f"❌ Network error fetching Pexels image for query '{query}': {e}")
-    except Exception as e:
-        print(f"❌ General error fetching Pexels image for query '{query}': {e}")
-    return None
+#     orientation = 'landscape' if video_type == 'long' else 'portrait'
+#     try:
+#         headers = {"Authorization": pexels_api_key}
+#         params = {"query": f"abstract {query}", "per_page": 1, "orientation": orientation}
+#         response = requests.get("https://api.pexels.com/v1/search", headers=headers, params=params, timeout=15)
+#         response.raise_for_status()
+#         data = response.json()
+#         if data.get('photos'):
+#             image_url = data['photos'][0]['src']['large2x']
+#             image_response = requests.get(image_url, timeout=15)
+#             image_response.raise_for_status()
+#             return Image.open(BytesIO(image_response.content)).convert("RGBA")
+#     except requests.exceptions.RequestException as e:
+#         print(f"❌ Network error fetching Pexels image for query '{query}': {e}")
+#     except Exception as e:
+#         print(f"❌ General error fetching Pexels image for query '{query}': {e}")
+#     return None
 
 
 def text_to_speech(text, output_path):
