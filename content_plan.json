@@ -1,0 +1,144 @@
+{
+  "lessons": [
+    {
+      "chapter": 1,
+      "part": 1,
+      "title": "Understanding AI:  From Magic to Math",
+      "status": "complete",
+      "youtube_id": "EN-Q73PXuYk"
+    },
+    {
+      "chapter": 1,
+      "part": 2,
+      "title": "Introduction to Machine Learning:  Teaching Computers to Learn",
+      "status": "complete",
+      "youtube_id": "mSk-7yGYZ1A"
+    },
+    {
+      "chapter": 2,
+      "part": 1,
+      "title": "Neural Networks: The Brain-Inspired Algorithm",
+      "status": "complete",
+      "youtube_id": "sSCUZqTu6og"
+    },
+    {
+      "chapter": 2,
+      "part": 2,
+      "title": "Deep Learning Fundamentals: Stacking Neural Networks for Power",
+      "status": "complete",
+      "youtube_id": "NrNbqgY8OQY"
+    },
+    {
+      "chapter": 3,
+      "part": 1,
+      "title": "Generative AI: Creating New Content with AI",
+      "status": "complete",
+      "youtube_id": "QGPgcd_F8h8"
+    },
+    {
+      "chapter": 3,
+      "part": 2,
+      "title": "Understanding Transformers: The Architecture Behind LLMs",
+      "status": "complete",
+      "youtube_id": "aS5Eh9xYBMg"
+    },
+    {
+      "chapter": 4,
+      "part": 1,
+      "title": "Building Your First AI Model: A Practical Example",
+      "status": "complete",
+      "youtube_id": "UEihVy583vU"
+    },
+    {
+      "chapter": 4,
+      "part": 2,
+      "title": "Model Training and Evaluation: Getting the Best Performance",
+      "status": "complete",
+      "youtube_id": "7QUluL6TwRE"
+    },
+    {
+      "chapter": 5,
+      "part": 1,
+      "title": "Working with Datasets: Data Cleaning and Preprocessing",
+      "status": "complete",
+      "youtube_id": "D9smqFbzTaI"
+    },
+    {
+      "chapter": 5,
+      "part": 2,
+      "title": "Feature Engineering: Enhancing Your Model's Capabilities",
+      "status": "complete",
+      "youtube_id": "jDcYPCdQnUo"
+    },
+    {
+      "chapter": 6,
+      "part": 1,
+      "title": "Agent-Based AI: Building Autonomous Systems",
+      "status": "complete",
+      "youtube_id": "A9bJTIG9UFU"
+    },
+    {
+      "chapter": 6,
+      "part": 2,
+      "title": "Reinforcement Learning in Practice: Training Agents to Solve Problems",
+      "status": "complete",
+      "youtube_id": "qeJQF0vPnYI"
+    },
+    {
+      "chapter": 7,
+      "part": 1,
+      "title": "Advanced Multi-Agent Systems: Cooperation and Competition",
+      "status": "complete",
+      "youtube_id": "ihLjL3f6JbI"
+    },
+    {
+      "chapter": 7,
+      "part": 2,
+      "title": "Decentralized AI: Building Robust and Scalable Systems",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 8,
+      "part": 1,
+      "title": "AI Tool Use: Empowering Your Agents with External Tools",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 8,
+      "part": 2,
+      "title": "LangChain Deep Dive: Advanced Techniques and Applications",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 9,
+      "part": 1,
+      "title": "Understanding AI Architectures: Designing Efficient Systems",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 9,
+      "part": 2,
+      "title": "MLOps: Deploying and Managing AI Models in Production",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 10,
+      "part": 1,
+      "title": "Ethical Considerations in AI: Bias, Fairness, and Responsibility",
+      "status": "pending",
+      "youtube_id": null
+    },
+    {
+      "chapter": 10,
+      "part": 2,
+      "title": "The Future of AI Development: Trends and Opportunities",
+      "status": "pending",
+      "youtube_id": null
+    }
+  ]
+}

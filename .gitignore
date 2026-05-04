@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+
+# Output
+output/
+*.mp4
+
+# Credentials & Sensitive Files
+client_secrets.json
+credentials.json
+*.env
+.env
+encoded_client_secret.txt
+encoded_credentials.txt
+prompt.txt
+
+# VS Code
+.vscode/
+
+#html
+*.html
+
+# Ignore all JSON key files
+gemini-youtube-automator-4ff94a2f3c8a.json
